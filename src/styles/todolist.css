@@ -1,0 +1,42 @@
+.container-list {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-list-todo {
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dcdcdc;
+}
+
+.list {
+    width: 500px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.button-list {
+    color: #000000;
+    background-color: transparent;
+    border: none !important;
+}
+

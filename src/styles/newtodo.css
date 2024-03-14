@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+.form-container {
+    max-height: 600px; 
+    max-width: 600px; 
+    padding: 50px 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #dcdcdc;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 500px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+.button {
+    padding: 12px 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5f5f5f;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-details {
+    width: 500px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background-color: white;
+}
