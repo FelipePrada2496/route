@@ -24,7 +24,6 @@ return (
             ))}
             
         </div>
-
         <div className={'button'}> <Link to={'/new'}> <button>NEW TODO</button> </Link> </div>
     </div>
 );
@@ -33,3 +32,4 @@ return (
 
 
 export default List;
+

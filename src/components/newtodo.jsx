@@ -7,6 +7,7 @@ const New = () => {
     const [creation, setCreation] = useState("");
     const [todos, setTodos] = useState([]);
 
+
     useEffect(() => {
         const storedTodos = localStorage.getItem("todos");
         if (storedTodos) {
@@ -26,7 +27,6 @@ const New = () => {
 
         setTodos(updatedTodos);
 
-        window.location.href = "/";
     };
 
     return (
@@ -43,13 +43,11 @@ const New = () => {
                     ></textarea>
                     <label>Creation Date</label>
                     <input type="date" value={creation} onChange={(e) => setCreation(e.target.value)} />
+                    <button className="button" type="submit">SEND</button>
                 </form>
             </div>
-            <button className="button" type="submit">SEND</button>
         </div>
     )
 }
 
-
 export default New;
-
